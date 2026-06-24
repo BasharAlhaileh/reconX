@@ -243,12 +243,12 @@ After exporting, you'll have:
 
 ## Legal Reminder
 
-✅ Always get written authorization before testing systems you don't own
-✅ Follow responsible disclosure practices
-✅ Comply with local laws and regulations
+ Always get written authorization before testing systems you don't own
+ Follow responsible disclosure practices
+ Comply with local laws and regulations
 
 ---
 
-**Enjoy exploring with ReconX!** 🔐
+**Enjoy exploring with ReconX!** 
 
 Built by FBI_Soldier | Team RedX
