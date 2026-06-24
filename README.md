@@ -65,7 +65,7 @@ python3 reconx.py
 
 ---
 
-# 🚀Usage
+# Usage
 
 ### Interactive Mode (Default)
 
