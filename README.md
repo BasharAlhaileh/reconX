@@ -11,9 +11,9 @@ An interactive, modular OSINT & reconnaissance CLI tool for authorized security 
 
 ---
 
-## 🎯 Features
+ ##Features
 
-✅ **6 Comprehensive Recon Modules:**
+ **6 Comprehensive Recon Modules:**
 - WHOIS Lookup — Domain registration, registrar, nameservers
 - DNS Enumeration — A, AAAA, MX, NS, TXT, SOA, CNAME, PTR records
 - Subdomain Discovery — Concurrent wordlist brute-force with DNS queries
@@ -21,21 +21,21 @@ An interactive, modular OSINT & reconnaissance CLI tool for authorized security 
 - Email Harvesting — Page scraping + role-based email guesses
 - HTTP Fingerprinting — Headers, security audit, tech stack detection
 
-✅ **Interactive Menu System** — Navigate easily through organized menus
+ **Interactive Menu System** — Navigate easily through organized menus
 
-✅ **Flexible Execution:**
+ **Flexible Execution:**
 - Run individual modules
 - Run all modules at once
 - Custom module selection
 - Save results as JSON or TXT reports
 
-✅ **Passive Reconnaissance** — No exploitation, minimal footprint
+ **Passive Reconnaissance** — No exploitation, minimal footprint
 
-✅ **Professional Output** — Colored terminal UI with detailed results
+ **Professional Output** — Colored terminal UI with detailed results
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Requirements
 - Python 3.8+
@@ -65,7 +65,7 @@ python3 reconx.py
 
 ---
 
-## 🚀 Usage
+# Usage
 
 ### Interactive Mode (Default)
 
@@ -97,7 +97,7 @@ Follow the menu prompts:
 
 ---
 
-## 📋 Module Details
+##  Module Details
 
 ### WHOIS Lookup
 Retrieves domain registration information from public WHOIS databases.
@@ -138,20 +138,20 @@ Server identification, security header audit, tech stack detection, cookie analy
 
 ---
 
-## 🔐 Passive Reconnaissance
+##  Passive Reconnaissance
 
 All modules are **completely passive**:
-- ✅ No exploitation
-- ✅ No vulnerability scanning
-- ✅ No data exfiltration
-- ✅ Standard protocol behavior only
-- ✅ Minimal system footprint
+-  No exploitation
+-  No vulnerability scanning
+-  No data exfiltration
+-  Standard protocol behavior only
+-  Minimal system footprint
 
 **Legal Notice:** Ensure you have written authorization before testing any system you do not own.
 
 ---
 
-## 📊 Output Examples
+##  Output Examples
 
 ### Console Output
 ```
@@ -202,7 +202,7 @@ All modules are **completely passive**:
 
 ---
 
-## 🛠️ Dependencies
+##  Dependencies
 
 ```
 python-whois     - WHOIS domain lookups
@@ -219,28 +219,9 @@ pip3 install -r requirements.txt --break-system-packages
 
 ---
 
-## 📁 Project Structure
 
-```
-reconx/
-├── reconx.py                 # Main interactive application
-├── install.sh                # Linux installer script
-├── requirements.txt          # Python dependencies
-├── README.md                 # Documentation
-├── modules/
-│   ├── whois_lookup.py      # WHOIS module
-│   ├── dns_enum.py          # DNS module
-│   ├── subdomain.py         # Subdomain discovery
-│   ├── port_scan.py         # Port scanning
-│   ├── email_harvest.py     # Email harvesting
-│   └── http_fingerprint.py  # HTTP fingerprinting
-└── utils/
-    └── reporter.py          # Report generation
-```
 
----
-
-## 💡 Tips & Tricks
+##  Tips & Tricks
 
 ### Custom Port Scanning
 Modify default ports in settings menu or edit `reconx.py`:
@@ -268,7 +249,7 @@ cat report.json | jq '.modules."DNS Enumeration"'
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions welcome! Ideas:
 - Additional recon modules (Shodan API, SSL cert analysis, etc.)
@@ -278,49 +259,28 @@ Contributions welcome! Ideas:
 
 ---
 
-## ⚖️ Legal & Ethics
 
-**ReconX is for authorized security testing only:**
-
-✅ Use with explicit written permission
-✅ Follow responsible disclosure practices
-✅ Comply with local laws and regulations
-✅ Respect privacy and data protection laws
-
-❌ Do NOT use on systems you don't own or have permission to test
-❌ Do NOT use for malicious purposes
-❌ Do NOT violate any laws
-
----
-
-## 📄 License
+##  License
 
 MIT License - See LICENSE file for details
 
 ---
 
-## 👤 Author
+##  Author
 
 **FBI_Soldier**  
 Team: **RedX**
 
 ---
 
-## 🙌 Acknowledgments
+##  Acknowledgments
 
 Built for the cybersecurity community. Designed for authorized penetration testers, security researchers, and CTF competitors.
 
 ---
 
-## 📞 Support
 
-For issues, questions, or suggestions:
-- Open an issue on GitHub
-- Check existing documentation
-- Review module source code
-
----
 
 **Made with ❤️ for the infosec community**
 
-Stay ethical. Stay safe. 🔐
+Stay ethical. Stay safe. 
